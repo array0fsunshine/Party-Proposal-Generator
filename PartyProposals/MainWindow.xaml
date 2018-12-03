@@ -6,8 +6,32 @@
         xmlns:local="clr-namespace:PartyProposals"
         mc:Ignorable="d"
         Title="Party Proposal Maker" Height="450" Width="500
-        " ResizeMode="NoResize">
+        " ResizeMode="NoResize" FontFamily="Vladimir Script" FontSize="24" FontWeight="Bold">
     <Grid>
         
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <!--Welcome Message Starts Here -->
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize ="36" Text="Welcome"/>
+
+
     </Grid>
 </Window>
