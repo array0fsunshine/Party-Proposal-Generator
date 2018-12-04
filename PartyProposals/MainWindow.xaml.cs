@@ -20,9 +20,13 @@ namespace PartyProposals
     /// </summary>
     public partial class MainWindow : Window
     {
+        public String[] lunchOrDinner = {"Lunch","Special Hours Lunch","Dinner"};
+
         public MainWindow()
         {
             InitializeComponent();
+
+            lunchOrDinnerCB.ItemsSource = lunchOrDinner;
         }
 
         private void SubmitBtn_Click(object sender, RoutedEventArgs e)
