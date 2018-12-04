@@ -24,5 +24,10 @@ namespace PartyProposals
         {
             InitializeComponent();
         }
+
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Customer: {customerNameTxt.Text}");
+        }
     }
 }

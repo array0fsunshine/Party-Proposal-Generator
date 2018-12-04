@@ -48,7 +48,7 @@
         <TextBox x:Name="eventTypeTxt" Grid.Column="2" Grid.Row="4" Width="235" Margin="10"/>
 
         <!--Submit Button -->
-        <Button x:Name="submitBtn" Content="SUBMIT" Grid.Column="2" Grid.Row="5" Margin="15"/>
+        <Button x:Name="submitBtn" Content="SUBMIT" Grid.Column="2" Grid.Row="5" Margin="15" Click="SubmitBtn_Click"/>
 
     </Grid>
 </Window>
