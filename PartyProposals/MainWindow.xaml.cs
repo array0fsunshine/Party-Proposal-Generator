@@ -20,10 +20,11 @@ namespace PartyProposals
     /// </summary>
     public partial class MainWindow : Window
     {
-        public String[] lunchOrDinner = {"Lunch","Special Hours Lunch","Dinner"};
 
         public MainWindow()
         {
+            String[] lunchOrDinner = { "Lunch", "Special Hours Lunch", "Dinner" };
+
             InitializeComponent();
 
             lunchOrDinnerCB.ItemsSource = lunchOrDinner;

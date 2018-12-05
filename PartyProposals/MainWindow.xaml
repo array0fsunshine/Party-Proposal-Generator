@@ -48,6 +48,7 @@
         <TextBlock Grid.Column="1" Grid.Row="4" FontWeight="Bold" Text="Event Type: " Margin="10"/>
         <TextBox x:Name="eventTypeTxt" Grid.Column="2" Grid.Row="4" Width="235" Margin="10"/>
 
+        <!-- Lunch or Dinner Combo Box -->
         <TextBlock Grid.Column="1" Grid.Row="5" FontWeight="Bold" Text="Lunch or Dinner?" Margin="10"/>
         <ComboBox x:Name="lunchOrDinnerCB" Grid.Column="2" Grid.Row="5" Margin="10"/>
 
