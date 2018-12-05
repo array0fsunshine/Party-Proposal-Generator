@@ -23,11 +23,15 @@ namespace PartyProposals
 
         public MainWindow()
         {
-            String[] lunchOrDinner = { "Lunch", "Special Hours Lunch", "Dinner" };
-
+    
+            //Initialize Window
             InitializeComponent();
 
+            //Populate Lunch or Dinner ComboBox
+            String[] lunchOrDinner = { "Lunch", "Dinner" };
             lunchOrDinnerCB.ItemsSource = lunchOrDinner;
+
+
         }
 
         private void SubmitBtn_Click(object sender, RoutedEventArgs e)
